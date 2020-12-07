@@ -1,0 +1,11 @@
+{
+    "name": "rembrandt-test-optimization",
+    "version": "1.0.0",
+    "description": "This is an example for creating a new optimization Docker image for Rembrandt.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "MIT"
+  }
