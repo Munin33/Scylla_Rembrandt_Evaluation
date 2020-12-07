@@ -1,5 +1,5 @@
 # Scylla_Rembrandt_Evaluation
-This repository contains the files used for evaluating the business process simulation tool Scylla and the resource manager Rembrandt.
+This repository contains the files used for evaluating the business process simulation tool [Scylla](https://github.com/bptlab/scylla) and the resource manager [Rembrandt](https://github.com/bptlab/rembrandt).
 
 It includes:
 
