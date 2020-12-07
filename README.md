@@ -10,4 +10,4 @@ It includes:
 - the database dump created during the evaluation
 
 
-Please check the readme for information about the provided allocation log and further instructions on how to recreate the evaluation.
+Please check the provided instructions file for information about the provided allocation log and further instructions on how to recreate the evaluation.
