@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bsim:definitions xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel" targetNamespace="http://www.hpi.de" id="0_RegisterParcels_global">
+  <bsim:simulationConfiguration startDateTime="2020-11-15T17:02:00.944284700+01:00[Europe/Berlin]" endDateTime="2020-11-15T17:02:00.946756100+01:00[Europe/Berlin]" id="0_RegisterParcels" processRef="Process_0fh5hxd" processInstances="100">
+    <bsim:startEvent id="StartEvent_0o1lkph">
+      <bsim:arrivalRate timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>30.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:arrivalRate>
+    </bsim:startEvent>
+    <bsim:Task id="Activity_00hycy4" name="RegisterParcels">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>60.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources />
+    </bsim:Task>
+  </bsim:simulationConfiguration>
+  <bsim:zoneOffset>+01:00</bsim:zoneOffset>
+  <bsim:resourceData>
+    <bsim:dynamicResource id="Clerk" defaultQuantity="3" defaultCost="10.0" defaultTimeUnit="HOURS">
+      <bsim:instance name="Clerk1" />
+      <bsim:instance name="Clerk2" />
+      <bsim:instance name="Clerk3" />
+    </bsim:dynamicResource>
+  </bsim:resourceData>
+</bsim:definitions>

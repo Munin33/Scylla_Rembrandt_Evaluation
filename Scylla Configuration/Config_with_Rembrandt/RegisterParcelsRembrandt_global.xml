@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bsim:globalConfiguration xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel" targetNamespace="http://www.hpi.de" id="00_RegisterParcelsRembrandt_global">
+  <bsim:zoneOffset>+01:00</bsim:zoneOffset>
+  <bsim:resourceData>
+    <bsim:dynamicResource id="RembrandtResource" defaultQuantity="1" defaultCost="10.0" defaultTimeUnit="HOURS">
+      <bsim:instance name="Dummy" />
+    </bsim:dynamicResource>
+  </bsim:resourceData>
+</bsim:globalConfiguration>

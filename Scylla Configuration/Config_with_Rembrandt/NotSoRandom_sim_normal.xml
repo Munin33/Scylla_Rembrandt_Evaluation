@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bsim:definitions xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel" targetNamespace="http://www.hpi.de">
+  <bsim:simulationConfiguration startDateTime="2020-11-15T21:08:40.681479800+01:00[Europe/Berlin]" id="0_NotSoRandom_sim_normal" processRef="Process_0fh5hxd" processInstances="100">
+    <bsim:startEvent id="StartEvent_0o1lkph">
+      <bsim:arrivalRate timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>30.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:arrivalRate>
+    </bsim:startEvent>
+    <bsim:Task id="Activity_00hycy4" name="NotSoRandomClerk">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>60.0</bsim:mean>
+          <bsim:standardDeviation>15.0</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="RembrandtResource" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+  </bsim:simulationConfiguration>
+</bsim:definitions>
