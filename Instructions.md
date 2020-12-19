@@ -39,43 +39,62 @@ Each contains an "Experience" attribute, which is configured as meta-attribute "
 The files are found in the "Config_without_Rembrandt" folder
 
 BPMN File: RegisterParcels.bpmn
+
 global configuration: RegisterParcels_global.xml
+
 simulation configuration: RegisterParcels_sim_constant.xml
+
 IDs in Allocation log: not available
 
 ### Case2) Simulation of 100 process instances without Rembrandt and a normal distributed activity duration (mean: 60 minutes, standard deviation: 15 minutes).
 
 BPMN File: RegisterParcels.bpmn
+
 global configuration: RegisterParcels_global.xml
+
 simulation configuration: RegisterParcels_sim_normal.xml
+
 IDs in Allocation log: not available
 
 ### Case3) Simulation of 100 process instances with Rembrandt and the algorithm "NotSoRandomClerk" and a constant activity duration. The files are found in the "Configuration_with_Rembrandt" folder.
 
 BPMN File: RegisterParcelsNotSoRandom.bpmn
+
 global configuration: RegisterParcelsRembrandt_global.xml
+
 simulation configuration: NotSoRandom_sim_constant.xml
+
 IDs in Allocation log: 0-100
 
 ### Case4) Simulation of 100 process instances with Rembrandt and the algorithm "NotSoRandomClerk" and a normal distributed activity duration (mean: 60 minutes, standard deviation: 15 minutes).
 
 BPMN File: RegisterParcelsNotSoRandom.bpmn
+
 global configuration: RegisterParcelsRembrandt_global.xml
+
 simulation configuration: NotSoRandom_sim_normal.xml
+
 IDs in Allocation log: 260-360
 
 ### Case5) Simulation of 100 process instances, when setting the experience value of Clerk3 to 1.1.
 with Rembrandt and the algorithm "NotSoRandomClerk" and a normal distributed activity duration (mean: 60 minutes, standard deviation: 15 minutes).
 
 BPMN File: RegisterParcelsNotSoRandom.bpmn
+
 global configuration: RegisterParcelsRembrandt_global.xml
+
 simulation configuration: NotSoRandom_sim_normal.xml
+
 IDs in Allocation log: 830-930
 
 ### Case6) Simulation of 100 process instances, with Rembrandt and the algorithm "RandomClerk" and a normal distributed activity duration (mean: 60 minutes, standard deviation: 15 minutes).
+
 BPMN File: RegisterParcelsRandom.bpmn
+
 global configuration: RegisterParcelsRembrandt_global.xml
+
 simulation configuration: Random_sim_normal.xml
+
 IDs in Allocation log: 2154-2258
 
 
